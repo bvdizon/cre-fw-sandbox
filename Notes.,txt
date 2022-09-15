@@ -1,0 +1,81 @@
+//==================================================
+RE/MAX First Colors
+#B11107 --- red
+#01478F --- blue
+
+
+
+//==================================================
+<!-- To remove extra white space on the left side -->
+<script>
+window.addEventListener('load', () => {
+        document.getElementById('content').classList.remove('column');
+    })
+</script>
+
+
+
+//==================================================
+    <!-- Insert Custom Styles in the header -->
+    <script>
+    var css = '';
+        var head = document.querySelector("head");
+        var style = document.createElement('style');
+
+        head.appendChild(style);
+
+        style.type = 'text/css';
+
+        if (style.styleSheet) {
+            // This is required for IE8 and below.
+            style.styleSheet.cssText = css;
+        } else {
+            style.appendChild(document.createTextNode(css));
+        }
+    </script>
+
+
+
+//==================================================
+
+
+
+    <div class="realtor-cmty__features">
+    <div class="feature-image-text section-spacer">
+        <div class="feature-image" data-aos="zoom-in-right">
+            <iframe class="lazyload" data-src="https://www.google.com/maps/d/embed?mid=1rX9MhNJsK6nKgpZ4nI6wcOQdLGctbUJY&ehbc=2E312F" width="640" height="480"></iframe>
+        </div>
+        <div class="feature-text" data-aos="fade-left" data-aos-delay="500">
+            <h2>Find the best agent or REALTOR® for your favorite South Calgary neighborhood</h2>
+            <p>Research transactions in the last 5 years mapped to your neighbourhood. Homes bought and sold in Calgary, are mapped and listed beside. Our top agents are frequently doing deals in Auburn Bay, Copperfield, Cranston, Legacy, Mahogany, Mckenzie Towne, Mckenzie Lake, Silverado and Walden.</p>
+            <div class="my-1">
+                <a href="" class=" cre__btn cre__btn--red">Get my free consult</a>
+            </div>
+        </div>
+    </div><!-- @end feature-image-text -->
+
+    <div class="feature-image-text">
+        <div class="feature-text" data-aos="fade-left" data-aos-delay="500">
+            <h2>Egestas Sapien Mollis Pulvinar Facilisi Et Accumsan</h2>
+            <p>Duis cubilia primis. <strong>Cubilia</strong> praesent maecenas risus vulputate nulla massa praesent orci. Urna condimentum laoreet nulla egestas. Penatibus, a quisque rhoncus feugiat faucibus adipiscing metus pharetra lobortis. Lacus nam, mattis. Fames velit ipsum urna platea dictumst placerat interdum convallis tortor arcu <em>a</em> felis.</p>
+            <div class="my-1">
+                <a href="" class=" cre__btn cre__btn--red">Get my free consult</a>
+            </div>
+        </div>
+        <div class="feature-image" data-aos="zoom-in-right">
+            <img src="https://assets-global.website-files.com/5db0d55a083f4b7cd59d2e42/5f2239675c507aa69172a423_kajabi-pages-2.jpg" alt="" width="478">
+        </div>
+    </div><!-- @end feature-image-text -->
+    <div class="feature-image-text section-spacer">
+        <div class="feature-image" data-aos="zoom-in-right">
+            <img src="https://assets-global.website-files.com/5db0d55a083f4b7cd59d2e42/5f2239675c507aa69172a423_kajabi-pages-2.jpg" alt="" width="478">
+        </div>
+        <div class="feature-text" data-aos="fade-left" data-aos-delay="500">
+            <h2>Egestas Sapien Mollis Pulvinar Facilisi Et Accumsan</h2>
+            <p>Duis cubilia primis. <strong>Cubilia</strong> praesent maecenas risus vulputate nulla massa praesent orci. Urna condimentum laoreet nulla egestas. Penatibus, a quisque rhoncus feugiat faucibus adipiscing metus pharetra lobortis. Lacus nam, mattis. Fames velit ipsum urna platea dictumst placerat interdum convallis tortor arcu <em>a</em> felis.</p>
+            <div class="my-1">
+                <a href="" class=" cre__btn cre__btn--red">Get my free consult</a>
+            </div>
+        </div>
+    </div><!-- @end feature-image-text -->
+</div> <!-- @end: Features Section -->

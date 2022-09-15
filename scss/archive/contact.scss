@@ -1,0 +1,33 @@
+.cre-button-group {
+	padding: 2rem 0 4rem;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		display: grid;
+		gap: 1rem;
+		@media screen and (min-width: 768px) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		@media screen and (min-width: 1200px) {
+			grid-template-columns: repeat(5, 1fr);
+		}
+	}
+
+	a {
+		display: block;
+		padding: 1rem 3px;
+		text-decoration: none;
+		position: relative;
+		color: #b11107;
+		border: 1px solid #b11107;
+
+		&:hover {
+			color: #fff !important;
+			background: rgb(177, 17, 7);
+			background: linear-gradient(90deg, rgba(177, 17, 7, 1) 0%, rgba(177, 17, 7, 1) 100%);
+		}
+	}
+}

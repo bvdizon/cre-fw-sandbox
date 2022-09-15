@@ -1,0 +1,68 @@
+.title {
+	&-lg {
+		font-size: clamp(1.25rem, 0.8245rem + 2.1277vw, 2.5rem);
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	&-xl {
+		font-size: clamp(1.875rem, 1.492rem + 1.9149vw, 3rem);
+		font-weight: 600;
+		line-height: 1.2;
+	}
+}
+
+.title-sub {
+	display: block;
+	font-weight: 300;
+	font-size: clamp(1.25rem, 1.0372rem + 1.0638vw, 1.875rem);
+}
+
+.subtitle-h1 {
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.text {
+	&-center {
+		text-align: center;
+	}
+
+	&-right {
+		text-align: right;
+	}
+}
+
+.my {
+	&-1 {
+		margin-top: 0.25rem; /* 4px */
+		margin-bottom: 0.25rem; /* 4px */
+	}
+	&-2 {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+}
+
+.mb {
+	&-1 {
+		margin-bottom: 1rem !important;
+	}
+	&-2 {
+		margin-bottom: 2rem !important;
+	}
+	&-5 {
+		margin-bottom: 5rem !important;
+	}
+}
+
+.max-width-title {
+	width: 95%;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.width-100 {
+	width: 100%;
+}

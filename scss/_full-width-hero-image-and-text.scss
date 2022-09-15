@@ -1,0 +1,24 @@
+.tgrf-hero {
+	text-align: center;
+	color: #fff;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: rgb(2, 0, 36);
+	background: linear-gradient(180deg, rgba(2, 0, 36, 0.8) 0%, rgba(2, 0, 36, 0.517124891948967) 100%),
+		url('https://www.calgary-real-estate.com/uploads/agent-1/SOLD/AdobeStock_398237683_Preview.jpeg');
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	@media screen and (min-width: 768px) {
+		min-height: 70vh;
+	}
+
+	&--subtitle {
+		font-weight: 300;
+		font-size: clamp(1.25rem, 1.0372rem + 1.0638vw, 1.875rem);
+	}
+}

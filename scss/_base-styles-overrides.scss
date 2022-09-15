@@ -1,0 +1,24 @@
+:root {
+	--color-gray-50: #f9fafb;
+	--color-gray-100: #f3f4f6;
+	--color-gray-200: #e5e7eb;
+	--color-gray-300: #d1d5db;
+	--color-gray-400: #9ca3af;
+	--color-gray-500: #6b7280;
+	--color-gray-600: #4b5563;
+	--color-gray-700: #374151;
+	--color-gray-800: #1f2937;
+	--color-gray-900: #111827;
+
+	--color-primary-500: #b11107;
+	--color-secondary-500: #01478f;
+}
+
+#body {
+	// enables full width inside the content
+	// strips off the padding
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+}

@@ -1,0 +1,65 @@
+.realtor-cmty__header {
+	@media screen and (min-width: 768px) {
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: 50% 40%;
+		align-items: center;
+	}
+
+	&--text {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		row-gap: 1.5rem;
+
+		h1 {
+			font-size: 42px !important;
+			margin-top: 3rem;
+
+			@media screen and (min-width: 768px) {
+				font-size: 48px !important;
+				margin-top: initial;
+			}
+		}
+	}
+
+	&--image {
+		position: relative;
+		text-align: center;
+	}
+}
+
+.shoutout {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 4fr auto;
+	align-items: center;
+	padding: 1rem;
+	// max-width: 200px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: #fff;
+	border-radius: 3px;
+
+	position: absolute;
+
+	img {
+		display: block;
+	}
+
+	p {
+		margin: 0;
+		font-size: 12px;
+		text-align: center;
+		line-height: 1.3;
+	}
+
+	&--1 {
+		top: 30%;
+	}
+
+	&--2 {
+		top: 50%;
+		left: 15%;
+	}
+}

@@ -1,0 +1,16 @@
+.title-content-40-60 {
+	@media screen and (min-width: 900px) {
+		.tgrf-wrapper {
+			max-width: 70% !important;
+			margin: auto;
+
+			display: grid;
+			gap: 3rem;
+			grid-template-columns: 40% 60%;
+
+			div:nth-child(1) {
+				text-align: right;
+			}
+		}
+	}
+}

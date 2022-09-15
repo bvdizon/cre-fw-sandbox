@@ -1,0 +1,28 @@
+.two-col-text-with-cta-and-image {
+	.tgrf-wrapper {
+		@media screen and (min-width: 768px) {
+			display: grid;
+			grid-template-columns: 30% calc(70% - 5rem);
+			gap: 5rem;
+			align-items: center;
+		}
+
+		@media screen and (min-width: 1200px) {
+			grid-template-columns: 40% calc(60% - 5rem);
+		}
+	}
+
+	.text-with-cta {
+		text-align: center;
+		margin-bottom: 5rem;
+
+		@media screen and (min-width: 768px) {
+			text-align: left;
+		}
+
+		h2,
+		h3 {
+			margin: 0.5rem 0;
+		}
+	}
+}
